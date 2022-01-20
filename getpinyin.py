@@ -25,14 +25,13 @@ for s in l1:
     tree=etree.HTML(res)
     try:
         pinyin=tree.xpath('//div[@id="pinyin"]/h2/span/b/text()')[0]
-        pinyin=list(pinyin)[2:-2]
-        sy=''
-        for sp in pinyin:
-            sy=sy+sp
-        print('、'+sy,end='')
-        out=out+'、'+sy
+        pinyin=pinyin[2:-2]
+        print(pinyin+'、',end='')
+        out=out+pinyin+'、'
     except:
-        print('、ERROR',end='')
-        out=out+'、ERROR'
+        print('ERROR、',end='')
+        out=out+'ERROR、'
 with open('./pinyin.txt','w',encoding='utf-8') as fp:
     fp.write(out)
+    print('\n拼音保存成功！')
+input('')
