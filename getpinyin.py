@@ -24,8 +24,9 @@ for s in l1:
     res=requests.get(url=urls,headers=headers,params=param).text
     tree=etree.HTML(res)
     try:
-        pinyin=tree.xpath('//div[@id="pinyin"]/h2/span/b/text()')[0]
-        pinyin=pinyin[2:-2]
+        pinyin=tree.xpath('//div[@id="pinyin"]//span/b/text()')[0]
+        if pinyin[0] == '[':
+            pinyin=pinyin[2:-2]
         print(pinyin+'、',end='')
         out=out+pinyin+'、'
     except:
