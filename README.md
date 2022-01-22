@@ -59,13 +59,17 @@ tips：注意版本号！5.0的Pydroid要用2.0的Pydroid repository plugin，<b
 4.01的pydroid要用1.01的Pydroid repository plugin
 
 1. 安装Apkpure
-2. 打开，点**我的**，**应用管理**，**APK/XAPK管理**
+2. 打开，点**我的**，**应用管理**，**APK/XAPK管理**<br>
 ![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/a.jpg)
 3. 安装**Pydroid3**，**Pydroid repository plugin**
 4. 打开Pydroid3，自动安装python，如果有引导，就*continue*
-5. 点左上角按钮，**Pip**
+5. 点左上角按钮，**Pip**<br>
+![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/b.jpg)<br>
+![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/c.jpg)
 6. 输入库的名称，点**install**(目前用了两个库：`requests`和`lxml`)
-7. 等待，直至出现*Successfully*
+![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/d.jpg)
+7. 等待，直至出现*Successfully*<br>
+![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/e.jpg)
 8. 重复6，7步，安装所有库，确定LIBRARIES里有`requests`和`lxml`
-9. 下载源文件并打开<br>（嫌麻烦也可以把`getpinyin.py`的源代码复制粘贴到主界面内）
+9. 下载源文件并打开<br>![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/e.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/f.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/g.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/k.jpg)<br>（嫌麻烦也可以把`getpinyin.py`的源代码复制粘贴到主界面内）
 10. 点右下角运行按钮，Enjoy！
