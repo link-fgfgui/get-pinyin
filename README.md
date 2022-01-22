@@ -60,6 +60,7 @@ tips：注意版本号！5.0的Pydroid要用2.0的Pydroid repository plugin，<b
 
 1. 安装Apkpure
 2. 打开，点**我的**，**应用管理**，**APK/XAPK管理**
+![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/a.jpg)
 3. 安装**Pydroid3**，**Pydroid repository plugin**
 4. 打开Pydroid3，自动安装python，如果有引导，就*continue*
 5. 点左上角按钮，**Pip**
