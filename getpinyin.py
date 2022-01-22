@@ -7,7 +7,7 @@ l1=[]
 out=''
 headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62'}
 p=input('汉字:(请严格用“、”隔开!)\n')
-if p[-1]=='、':
+if p[-1]!='、':
     p=p+'、'
 for i in p:
     if i=='、':
@@ -28,8 +28,9 @@ for s in l1:
         pinyin=tree.xpath('//div[@id="pinyin"]//span/b/text()')[0]
         if pinyin[0] == '[':
             pinyin=pinyin[2:-2]
-        print(pinyin+'、',end='')
-        out=out+pinyin+'、'
+        if l1[-1] != s:
+            print(pinyin+'、',end='')
+            out=out+pinyin+'、'
         if l1[-1] == s:
             print(pinyin,end='')
             out=out+pinyin
