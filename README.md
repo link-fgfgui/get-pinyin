@@ -52,7 +52,7 @@ lxml
 [百度网盘](https://pan.baidu.com/s/1vhZ_E2Zg4w_asGu0gVUjAg?pwd=y7tg)<br>
 [比邻云盘](https://pan.bilnn.com/s/qLa7T9)
 
-tips:比邻云盘下载后记得把后缀从`aspx`改成`xapk`<br>
+tips:比邻云盘下载后记得把后缀从`aspx`改成`xapk`或`apk`<br>
 tips:新版本如果安装不了python可以用旧版本<br>
 tips：注意版本号！5.0的Pydroid要用2.0的Pydroid repository plugin，<br>
 4.01的pydroid要用1.01的Pydroid repository plugin
