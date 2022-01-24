@@ -15,6 +15,7 @@ ___
 修复因为*修复输入时最后带有顿号导致错误的问题*导致的无法识别最后一个输入词语的问题--2022.1.22 20:44<br>
 修复因为*修复保存和输出时结果最前或最后带有顿号的问题*导致的错误重复输出问题--2022.1.24 15:13<br>
 **NEW!**可以识别多音字了--2022.1.24 16:06<br>
+
 ___
 
 使用的库：
@@ -41,19 +42,19 @@ lxml
 建议用**Pydroid3**运行<br>
 给个下载地址：<br>
 [Apkpure](https://apkpure.com/cn/pydroid-3-ide-for-python-3/ru.iiec.pydroid3),<br>
-[百度网盘](https://pan.baidu.com/s/1vhZ_E2Zg4w_asGu0gVUjAg?pwd=y7tg)<br>
+[百度网盘](?pwd=y7tg)<br>
 [比邻云盘](https://pan.bilnn.com/s/qLa7T9)
 
 建议装上Pydroid repository plugin，但想安装，要先装**Apkpure**。。。
 
 [Apkpure](https://apkpure.com/cn/apkpure/com.apkpure.aegon),<br>
-[百度网盘](https://pan.baidu.com/s/1vhZ_E2Zg4w_asGu0gVUjAg?pwd=y7tg)<br>
+[百度网盘](?pwd=y7tg)<br>
 [比邻云盘](https://pan.bilnn.com/s/qLa7T9)
 
 然后再装**Pydroid repository plugin**
 
 [Apkpure](https://apkpure.com/cn/pydroid-repository-plugin/ru.iiec.pydroid3.quickinstallrepo),<br>
-[百度网盘](https://pan.baidu.com/s/1vhZ_E2Zg4w_asGu0gVUjAg?pwd=y7tg)<br>
+[百度网盘](?pwd=y7tg)<br>
 [比邻云盘](https://pan.bilnn.com/s/qLa7T9)
 
 tips:比邻云盘下载后记得把后缀从`aspx`改成`xapk`或`apk`<br>
@@ -74,5 +75,5 @@ tips：注意版本号！5.0的Pydroid要用2.0的Pydroid repository plugin，<b
 7. 等待，直至出现*Successfully*<br>
 ![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/e.jpg)
 8. 重复6，7步，安装所有库，确定LIBRARIES里有`requests`和`lxml`
-9. 下载源文件并打开<br>![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/e.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/f.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/g.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/k.jpg)<br>（嫌麻烦也可以把`getpinyin.py`的源代码复制粘贴到主界面内）
+9. 下载源文件并打开<br>![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/f.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/g.jpg)![image](https://github.com/link-fgfgui/get-pinyin/blob/main/pic/k.jpg)<br>（嫌麻烦也可以把`getpinyin.py`的源代码复制粘贴到主界面内）
 10. 点右下角运行按钮，Enjoy！
