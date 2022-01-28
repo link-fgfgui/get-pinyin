@@ -189,7 +189,7 @@ class Ui_mainWindow(object):#主窗口UI
         self.label_22.setText(_translate("mainWindow", "如果输入多组文字，请用‘、’隔开!"))
         self.about_button.setText(_translate("mainWindow", "关于"))
         self.pushButton.setText(_translate("mainWindow", "GET!"))
-class Ui_other(object):
+class Ui_other(object):#含多音字的UI
     def setupUi(self, other):
         other.setObjectName("other")
         other.resize(274, 259)
@@ -243,7 +243,7 @@ class Ui_other(object):
         self.copyB.setText(_translate("other", "复制"))
         self.closeB.setText(_translate("other", "关闭"))
         self.label_2.setText(_translate("other", "发现一些多音字(词)！"))
-class Ui_last(object):
+class Ui_last(object):#结果UI
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(298, 279)
@@ -289,7 +289,7 @@ class Ui_last(object):
         self.label.setText(_translate("Form", "获取到了："))
         self.closeB.setText(_translate("Form", "关闭"))
         self.saveB.setText(_translate("Form", "保存"))
-class Ui_about(object):
+class Ui_about(object):#关于UI
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(311, 193)
@@ -337,6 +337,7 @@ class Ui_about(object):
         self.label.setText(_translate("Form", "这是一个简单的获取拼音的程序,\n通过爬取百度汉语的网页获得\n拼音,很适合小学一二年级的语文老师\n出试卷、出题目的时候批量获取拼音,\n也适合个人不认识的字的时候快速获取拼音的场景。"))
         self.label_3.setText(_translate("Form", "本程序已在[Github](https://github.com/link-fgfgui/get-pinyin)上开源"))
 wangluo=None
+#检查网络连接,否则不予启动
 try:
     if '2' not in str(requests.get(url='https://www.baidu.com',headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62'},timeout=2.5).status_code) and '2' not in str(requests.get(url='https://www.qq.com/',headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62'},timeout=2.5).status_code):
         tiShiapp=QtWidgets.QApplication([])
