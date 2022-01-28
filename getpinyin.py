@@ -59,5 +59,5 @@ if len(list_other)!=0:
                     print(s1+',',end='')
         with open('./pinyin.txt','a',encoding='utf-8') as fp:
             fp.write(out)
-        print('\n多音字已经写入到本地!')                
+        print('\n多音字已经写入到本地!')
 input('\n按Enter键结束')
