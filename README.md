@@ -44,7 +44,9 @@ lxml
 
 视频教程
 
-<video><iframe src="//player.bilibili.com/player.html?aid=423609878&bvid=BV1V3411a7dR&cid=496605071&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></video>
+<video width="320" height="240" controls>
+    <source src="movie/movie.mp4" type="video/mp4">
+</video>
 
 ### Mac
 自己下python,装好库文件,下源文件运行
