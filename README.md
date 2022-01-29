@@ -26,7 +26,7 @@ lxml
 
 1. 从[Releases](https://github.com/link-fgfgui/get-pinyin/releases)下载安装程序
 
-2. 打开安装程序![pic](media\image5.png)
+2. 打开安装程序![pic](media/image5.png)
 
 ### Mac
 自己下python,装好库文件,下源文件运行
