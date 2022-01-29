@@ -44,7 +44,7 @@ lxml
 
 视频教程
 
-<iframe 
+<video><iframe 
         height=850 
         width=90%
         src="//player.bilibili.com/player.html?aid=423609878&bvid=BV1V3411a7dR&cid=496605071&page=1" 
@@ -53,7 +53,7 @@ lxml
         frameborder="no" 
         framespacing="0" 
         allowfullscreen="true">视频
-</iframe>
+</iframe></video>
 
 ### Mac
 自己下python,装好库文件,下源文件运行
