@@ -54,10 +54,13 @@ ____
         allowfullscreen="true">
 </iframe>
 
-<iframe id="spkj" src="https://player.bilibili.com/player.html?aid=44020824&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100%> </iframe>
-<script type="text/javascript">  
-document.getElementById("spkj").style.height=document.getElementById("spkj").scrollWidth*0.76+"px";
-</script>
+<iframe  
+ height=850 
+ width=90% 
+ src="http://mctool.wangmingchang.com/index/jspay/dashang"  
+ frameborder=0  
+ allowfullscreen>
+</iframe>
 
 ### Mac
 自己下python,装好库文件,下源文件运行
