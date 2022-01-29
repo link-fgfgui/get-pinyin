@@ -42,6 +42,10 @@ lxml
 
 9. 在`开始菜单`中可以找到卸载程序，运行即可卸载<br>Tip: 你也可以打开`控制面板\所有控制面板项\程序和功能`找到`获取拼音 3.0`进行卸载<br>
 
+视频教程
+____
+<iframe src="//player.bilibili.com/player.html?aid=423609878&bvid=BV1V3411a7dR&cid=496605071&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ### Mac
 自己下python,装好库文件,下源文件运行
 
