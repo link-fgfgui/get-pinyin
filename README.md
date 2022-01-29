@@ -42,19 +42,19 @@ lxml
 建议用**Pydroid3**运行<br>
 给个下载地址：<br>
 [Apkpure](https://apkpure.com/cn/pydroid-3-ide-for-python-3/ru.iiec.pydroid3),<br>
-[百度网盘](?pwd=y7tg)<br>
+[百度网盘](https://pan.baidu.com/s/1vhZ_E2Zg4w_asGu0gVUjAg?pwd=y7tg)<br>
 [比邻云盘](https://pan.bilnn.com/s/qLa7T9)
 
 建议装上Pydroid repository plugin，但想安装，要先装**Apkpure**。。。
 
 [Apkpure](https://apkpure.com/cn/apkpure/com.apkpure.aegon),<br>
-[百度网盘](?pwd=y7tg)<br>
+[百度网盘](https://pan.baidu.com/s/1vhZ_E2Zg4w_asGu0gVUjAg?pwd=y7tg)<br>
 [比邻云盘](https://pan.bilnn.com/s/qLa7T9)
 
 然后再装**Pydroid repository plugin**
 
 [Apkpure](https://apkpure.com/cn/pydroid-repository-plugin/ru.iiec.pydroid3.quickinstallrepo),<br>
-[百度网盘](?pwd=y7tg)<br>
+[百度网盘](https://pan.baidu.com/s/1vhZ_E2Zg4w_asGu0gVUjAg?pwd=y7tg)<br>
 [比邻云盘](https://pan.bilnn.com/s/qLa7T9)
 
 tips:比邻云盘下载后记得把后缀从`aspx`改成`xapk`或`apk`<br>
