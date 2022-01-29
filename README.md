@@ -42,7 +42,7 @@ lxml
 
 9. 在`开始菜单`中可以找到卸载程序，运行即可卸载<br>Tip: 你也可以打开`控制面板\所有控制面板项\程序和功能`找到`获取拼音 3.0`进行卸载<br>
 
-视频教程
+[视频教程](https://www.bilibili.com/video/BV1V3411a7dR?zw)
 
 <video width="320" height="240" controls>
     <source src="movie/movie.mp4" type="video/mp4">
