@@ -43,7 +43,6 @@ lxml
 9. 在`开始菜单`中可以找到卸载程序，运行即可卸载<br>Tip: 你也可以打开`控制面板\所有控制面板项\程序和功能`找到`获取拼音 3.0`进行卸载<br>
 
 视频教程
-____
 
 <iframe 
         height=850 
@@ -53,7 +52,7 @@ ____
         border="0" 
         frameborder="no" 
         framespacing="0" 
-        allowfullscreen="true">
+        allowfullscreen="true">视频
 </iframe>
 
 ### Mac
